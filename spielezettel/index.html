@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Digitaler Spielezettel</title>
+<meta name="description" content="Digitaler Spielezettel: Punkte zählen für Kniffel, Skat, UNO, Phase 10 und mehr. Offline, ohne Werbung, ohne Konto.">
+<link rel="icon" href="img/icon.png">
+<link rel="stylesheet" href="../assets/fotonaut.css">
+<style>
+*{box-sizing:border-box}
+body{margin:0}
+main{max-width:860px;margin:0 auto;padding:24px 16px 64px}
+a{color:var(--fn-link)}
+h1,h2,h3{font-family:var(--fn-font-heading);margin:0 0 12px}
+h2{font-size:1.5rem;margin-top:48px}
+p,li{line-height:1.6}
+.brand{font-family:var(--fn-font-heading);font-weight:700;text-decoration:none;color:var(--fn-text)}
+.hero{display:flex;gap:20px;align-items:center;margin-top:32px;flex-wrap:wrap}
+.hero img{width:96px;height:96px;border-radius:22px;flex:none}
+.hero h1{font-size:2rem;line-height:1.15;margin:0}
+.lead{color:var(--fn-text-muted);font-size:1.1rem;margin:8px 0 0}
+.facts{display:flex;gap:8px;flex-wrap:wrap;list-style:none;padding:0;margin:24px 0 0}
+.facts li{background:var(--fn-primary-container);color:var(--fn-on-primary-container);border-radius:999px;padding:6px 14px;font-size:.9rem;font-weight:600}
+.shots{display:flex;gap:12px;overflow-x:auto;padding:4px 0 12px;scroll-snap-type:x proximity}
+.shots img{height:420px;width:auto;border-radius:var(--fn-radius-md);border:1px solid var(--fn-outline);flex:none;scroll-snap-align:start}
+.games{columns:2;column-gap:24px;padding-left:1.2rem}
+.card{background:var(--fn-surface);border:1px solid var(--fn-outline);border-radius:var(--fn-radius-md);padding:24px}
+.btn{display:inline-block;font:600 1rem var(--fn-font-body);border-radius:var(--fn-radius-md);padding:14px 24px;min-height:48px;text-decoration:none;text-align:center}
+.btn.primary{background:var(--fn-primary);color:var(--fn-on-primary)}
+.btn[aria-disabled=true]{background:var(--fn-surface-variant);color:var(--fn-text-muted);cursor:not-allowed;pointer-events:none}
+ol{padding-left:1.3rem}
+.note{color:var(--fn-text-muted);font-size:.95rem}
+footer{margin-top:56px;padding-top:16px;border-top:1px solid var(--fn-outline);font-size:.9rem;color:var(--fn-text-muted)}
+footer a{margin-right:16px}
+@media (max-width:560px){.games{columns:1}.shots img{height:360px}}
+</style>
+</head>
+<body>
+<main>
+<p><a class="brand" href="../">Fotonaut</a></p>
+
+<header class="hero">
+  <img src="img/icon.png" alt="App-Symbol des Digitalen Spielezettels" width="96" height="96">
+  <div>
+    <h1>Digitaler Spielezettel</h1>
+    <p class="lead">Punkte zählen für deine Spielerunde. Klar, offline, von mir.</p>
+  </div>
+</header>
+
+<ul class="facts">
+  <li>Android</li>
+  <li>Offline</li>
+  <li>Ohne Werbung</li>
+  <li>Ohne Konto</li>
+  <li>Hell und Dunkel</li>
+</ul>
+
+<h2>Schluss mit Zettel und Stift</h2>
+<p>Der Digitale Spielezettel zählt die Punkte für deine Spielerunde, speichert jede Runde sofort und zeigt dir danach Ergebnisse, Verlauf und Statistiken. Nach einem Neustart machst du genau dort weiter, wo du aufgehört hast.</p>
+
+<div class="shots" role="list" aria-label="Screenshots der App">
+  <img role="listitem" src="img/1-startseite.jpg" alt="Startseite mit Neues Spiel, Partie fortsetzen, Spieler, Spielhistorie, Statistiken und Spielabende" width="216" height="432">
+  <img role="listitem" src="img/2-spielauswahl.jpg" alt="Spielauswahl mit Kniffel, Wizard, UNO, Rommé und weiteren Spielen" width="216" height="432">
+  <img role="listitem" src="img/3-runde.jpg" alt="Laufende UNO-Runde mit Punktestand der vier Spieler" width="216" height="432">
+  <img role="listitem" src="img/4-historie.jpg" alt="Spielhistorie mit Filter und abgeschlossenen Spielen" width="216" height="432">
+  <img role="listitem" src="img/5-ergebnis.jpg" alt="Ergebnis eines Wizard-Spiels mit Platzierungen und Rundenverlauf" width="216" height="432">
+  <img role="listitem" src="img/6-statistik.jpg" alt="Statistiken mit Siegen pro Spieler und gespielten Spielen pro Monat" width="216" height="432">
+</div>
+
+<h2>Spiele</h2>
+<ul class="games">
+  <li>Kniffel</li><li>Wizard</li><li>UNO</li><li>Rommé</li>
+  <li>Canasta (auch im Team)</li><li>Doppelkopf</li><li>Skat</li>
+  <li>Darts (301, 501, 701)</li><li>Mölkky</li><li>Schwimmen / 31</li>
+  <li>Phase 10</li><li>Mau-Mau (Kartenwerte einstellbar)</li>
+  <li>Freier Punktezettel für alle anderen Spiele</li>
+</ul>
+
+<h2>Was die App kann</h2>
+<ul>
+  <li>Letzte Runde mit einem Tipp rückgängig machen.</li>
+  <li>Sieger und Platzierungen ansehen, direkt eine Revanche starten.</li>
+  <li>Historie mit Filter, Statistiken und Spielabende mit Platzierungspunkten.</li>
+  <li>Ergebnisse als PDF exportieren, Backup sichern und wiederherstellen.</li>
+  <li>Große Bedienelemente, Unterstützung für große Schrift, komplett auf Deutsch.</li>
+</ul>
+
+<h2>Datenschutz</h2>
+<p>Alle Daten bleiben auf deinem Gerät. Die App braucht kein Internet, keine Registrierung und keine Berechtigungen, und sie enthält weder Werbung noch Tracking. Details stehen in der <a href="datenschutz.html">Datenschutzerklärung</a>.</p>
+
+<h2 id="tester">Tester gesucht</h2>
+<div class="card">
+  <p>Die App ist noch nicht im Play Store veröffentlicht. Für den Start brauche ich <strong>12 Tester</strong>, die die App <strong>zwei Wochen lang installiert lassen</strong>. Benutzen musst du sie nicht ständig, ein Spieleabend reicht.</p>
+  <ol>
+    <li>Schick mir die E-Mail-Adresse deines Google-Kontos, das du im Play Store nutzt (per Nachricht oder an <a href="mailto:appdev@keinbiervor4.de">appdev@keinbiervor4.de</a>). Ich trage dich als Tester ein.</li>
+    <li>Öffne auf deinem Android-Handy den Link unten und tippe auf „Tester werden“.</li>
+    <li>Installiere die App über den Link zum Play Store.</li>
+    <li>Lass sie bitte bis mindestens <strong>[DATUM EINTRAGEN]</strong> installiert.</li>
+  </ol>
+  <p>
+    <!-- Platzhalter: href durch den "Link zur Teilnahme" aus der Play Console ersetzen
+         und aria-disabled sowie den Text "Link folgt" entfernen. -->
+    <a id="tester-link" class="btn primary" href="#tester" aria-disabled="true">Link folgt in Kürze</a>
+  </p>
+  <p class="note">Der Link funktioniert nur mit einem Google-Konto, das ich vorher als Tester eingetragen habe. Nur für Android, kein iPhone.</p>
+</div>
+
+<footer>
+  <a href="datenschutz.html">Datenschutzerklärung</a>
+  <a href="mailto:appdev@keinbiervor4.de">Kontakt</a>
+  <a href="../">Fotonaut</a>
+</footer>
+</main>
+</body>
+</html>
